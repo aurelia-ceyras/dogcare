@@ -1,0 +1,384 @@
+* {
+	box-sizing: content-box;
+	box-sizing: border-box;
+}
+
+nav ul{
+	padding:0px;
+	margin:0px;
+	list-style-type: none;
+	text-align: center; 
+	font-family: 'Josefin Slab', sans-serif;
+	font-size:45px;
+	font-weight:bold;
+
+}
+
+
+.nav-item {
+	padding:0px;
+	margin:0px;
+	display:inline-block;
+	width:170px;
+	height:50px;
+	border-left: 2px dotted #798081;
+	text-align: center;
+	line-height: 40px;
+	font-family: 'Josefin Slab', sans-serif;
+	font-size:30px;
+}
+
+nav li a{
+	display: block;
+	text-decoration: none;
+	color: rgb(232, 153, 125);
+
+}
+
+nav li :hover{
+	background-color: #FFFFFF;
+}
+
+}
+
+
+/* Titre page */
+
+h1 {font-family: 'Dancing Script', cursive;
+font-size:100px;
+
+color: #CECECE;
+background-color: #FFEDDF;
+text-align: center;
+
+}
+
+
+/* Titres intermédiaires */
+h2 {font-family:'Josefin Slab', sans-serif;
+text-align: center;
+font-size:40px;
+}
+
+
+h3 {
+	font-family: 'Dancing Script', cursive;
+	font-size:40px;
+	text-align: right;
+
+}
+
+
+p {font-family:'Josefin Slab', sans-serif;
+font-size:60px;
+}
+
+
+/* Classe Logo + photos articles */
+.flotte {
+	float:left;
+	width:150px;
+}
+
+
+.flotteright {
+	float:right;
+	position:relative;
+	width:150px;
+}
+
+/* Classe article  */
+#stéréliser {
+
+	width: 100%;
+	height: 480px;
+	overflow-y: auto;
+	overflow-x: auto;
+	margin: 15px 0px 10px 6px;
+	border: 4px groove #CECECE;
+	padding: 15px;
+	float:left;
+	text-align: justify;
+}
+
+
+body {
+	margin-top:0%;
+	margin-bottom: 0%;
+	margin-right: 7%;
+	margin-left: 7%;
+
+}
+
+/* Photos Clients */
+
+#photoclient {
+	width: 300px;
+}
+
+/*Texte footer */
+#droits {
+	text-align: right;
+	font-size: 15px;
+	background-color: #FFEDDF;
+}
+
+
+#texte {
+	font-size:20px;
+	text-indent: 20px;
+	text-align: center;
+
+}
+
+#textecontact {
+	text-align: center;
+	font-size:25px;
+}
+
+/* Texte titres */
+span {
+	border-width:5px;
+	border-style:dashed;
+	border-color:black;
+	padding: 23px 23px 23px 23px;
+	border-radius:10px;
+	border-color:#CECECE;
+}
+
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0;
+	background-color: rgba(248, 231, 217, 0.96);
+}
+
+.header {
+	background-color: #FFEDDF;
+	text-align: center;
+
+}
+
+#description {
+	text-align: center;
+	font-size: 20px;
+	font-family:'Josefin Slab', sans-serif;
+	font-style:italic;
+	color:grey;
+
+
+}
+
+#bande_horizontale{ 
+
+	padding: 0px; 
+	margin: 5px; 
+	border: none; 
+	width: 100%; 
+	height: 40px; 
+	background-color: #CCA08E; 
+	line-height: 40px;
+} 
+
+h1 {font-family: 'Dancing Script', cursive;
+font-size:100px;
+
+color: rgb(232, 153, 125);
+background-color: #FFEDDF;
+text-align: center;
+
+
+}
+
+/* Zoom sur photos clients */
+.zoom {
+	/*height: 140px;*/
+	text-align: center;
+}
+
+.image {
+	width: 100%;
+	height: 80%;
+}
+.image img {
+
+	/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+	-webkit-transition: all 2s ease; /* Safari et Chrome */
+	-moz-transition: all 2s ease; /* Firefox */
+	-ms-transition: all 2s ease; /* Internet Explorer 9 */
+	-o-transition: all 2s ease; /* Opera */
+	transition: all 2s ease;
+}
+.image:hover img {
+	/* L'image est grossie de 25% */
+	-webkit-transform:scale(1.25); /* Safari et Chrome */
+	-moz-transform:scale(1.25); /* Firefox */
+	-ms-transform:scale(1.25); /* Internet Explorer 9 */
+	-o-transform:scale(1.25); /* Opera */
+	transform:scale(1.25);
+}	
+
+#apparition {
+    
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+}
+
+/*pop-up*/ 
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 3px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+  border: 2px dotted #798081;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  font-family: 'Josefin Slab', sans-serif;
+  color:#798081 ;
+  background-color: #FFEDDF;
+  position: relative;
+  
+}
+.button:hover {
+  background: #CECECE;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: #CECECE;
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  border: 5px dotted #bbb; /* Dotted border */
+    
+    
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: 'Josefin Slab', sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  h1 {
+  	font-size: 40px;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+.overlay-container {
+  position:relative;
+}
+
+/*.overlay {
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  color: #87614E ;
+  padding-top: 23%;
+  text-align: center;
+  opacity: 0;
+  background-color:rgb(255,255,255);
+  background-color:rgba(255,255,255,0.6);
+  transition: opacity 0.5s;
+  font-size:60px;
+
+}
+
+.overlay-container:hover .overlay{
+  opacity: 1;
+}
+*/
